@@ -1,0 +1,143 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: pink; /* White background */
+  padding: 10px;
+  color: #333; /* Black text */
+  font-size: 12px;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+  background-color: white; /* White background */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #333; /* Black text */
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+input[type="text"],
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff; /* White background */
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+button:focus {
+  outline: none;
+  background-color: #e0e0e0;
+}
+
+button {
+  background-color: #333; /* Black background */
+  color: #fff; /* White text */
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #555; /* Darker black background */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  font-size: 12px;
+}
+
+li {
+  position: relative;
+  padding: 8px 8px 8px 24px;
+  background-color: #fff; /* White background */
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #f2f2f2;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+  background-color: #fff; /* White background */
+}
+
+li.dsa {
+  border-left: 8px solid #333; /* Black border */
+}
+
+li.personal {
+  border-left: 8px solid #333; /* Black border */
+}
+
+li.dev {
+  border-left: 8px solid #333; /* Black border */
+}
+
+.category-icon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 10px;
+  opacity: 0.7;
+}
+
+.edit-icon {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #333; /* Black text */
+}
+
+.delete-icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #333; /* Black text */
+}
+
+.edit-icon:hover {
+  color: #555; /* Darker black text */
+}
+
+.delete-icon:hover {
+  color: #555; /* Darker black text */
+}
+
+.quote {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #333; /* Black text */
+  text-align: center;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: 10px;
+  color: #333; /* Black text */
+  text-align: center;
+}

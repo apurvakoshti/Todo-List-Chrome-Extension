@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Apurva's TO-DO 🎀",
+  "version": "1.0",
+  "description": "Stay on track and don't rest until your checklist is complete.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/logo.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+      "128": "images/logo.png"
+    }
+}
